@@ -1,3 +1,6 @@
+This bot can welcome new chat members, delete messages with bad words and set, clear and get events. !!lets enjoy it
+
+
 Guide for deploy with docker telegram bots on heroku:
 
 1. Install heroku, pyenv, docker on pc
@@ -13,6 +16,7 @@ Guide for deploy with docker telegram bots on heroku:
 	*To see the modules and libraries installed for the bot type "pip freeze"
 	*To save that libraries and modules in a txt, type "pip freeze > requirements.txt"
 6. Create docker container in the same console window, after to create the requirements.txt 
+	*Init docker: "systemctl start docker"
 	* type: "docker build -t image-bot-python ."
 7. Login in heroku in the same console
 	*type: "heroku login" and press any key
