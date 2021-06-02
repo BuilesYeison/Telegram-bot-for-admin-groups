@@ -34,7 +34,7 @@ six==1.15.0
 telegram-send==0.25
 toml==0.10.1
 tornado==6.0.4
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.26
 virtualenv-clone==0.5.4
 wrapt==1.12.1
